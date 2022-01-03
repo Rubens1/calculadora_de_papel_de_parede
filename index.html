@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+</head>
+<body>
+    <div class="calculator">
+        <div class="calculator__container">
+            <div class="calculator__header"><!--<p>N&atilde;o sabe como calcular? <a style="color:#b808b7" href="https://api.whatsapp.com/send?phone=5511971671605" target="_blank">Clique Aqui</a></p>-->
+                <p class="indica">Indicamos informar as medidas com sobras de 10 cm</p>
+            </div>
+            <form id="calculator" action="" class="calculator__form" aria-hidden="false">
+                <div class="calculator__main">
+                    <div class="inputs_calculo">
+                        <div class="calculator__item">
+                            <label for="calculator__height" class="calculator__label">
+                                Qual a <b>Altura</b> da parede? 
+                            </label>
+                            <select class="calculator__input" id="calculator__height">
+                                <option value="">Selecione</option>
+                                <option value="1,00">1,00 metros</option>
+                                <option value="1,30">1,30 metros</option>
+                                <option value="1,50">1,50 metros</option>
+                                <option value="2,00">2,00 metros</option>
+                                <option value="2,30">2,30 metros</option>
+                                <option value="2,50">2,50 metros</option>
+                                <option value="2,60">2,60 metros</option>
+                                <option value="2,70">2,70 metros</option>
+                                <option value="2,80">2,80 metros</option>
+                                <option value="3,00">3,00 metros</option>
+                                <option value="3,30">3,30 metros</option>
+                                <option value="3,50">3,50 metros</option>
+                            </select>
+                        </div>
+    <div class="junta">
+        X
+    </div>
+    <div class="calculator__item">
+        <label for="calculator__width" class="calculator__label"> 
+            Qual a <b>Largura</b> da parede?
+        </label>
+        <input type="tel" class="calculator__input" id="calculator__width" placeholder="0,00">
+    </div>
+</div>
+<div class="calculator__action">
+    <button type="submit" class="calculator__button">Calcular</button>
+</div>
+</div>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+<a href="https://api.whatsapp.com/send?phone=5511971671605" target="_blank">Não encontrou a medida da sua parede?</a>
+</form>
+<div class="calculator__result">
+    <div id="calculator__result">
+
+    </div>
+
+    <script src="main.js"></script>
+</body>
+</html>
